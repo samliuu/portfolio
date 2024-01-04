@@ -1,0 +1,112 @@
+html * {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: #003d52;
+}
+
+h2 {
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #003d52;
+}
+
+h3 {
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #003d52;
+}
+
+ul {
+  margin-top: 10px;
+  margin-left: 350px;
+  margin-right: 50px;
+}
+
+li {
+  margin-right: 300px;
+}
+
+ol {
+  margin-top: 10px;
+  margin-left: 350px;
+  margin-right: 50px;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+table.style1,
+table.style1 th,
+table.style1 td {
+  margin-left: 350px;
+}
+
+table.style2,
+table.style2 th,
+table.style2 td {
+  border: 1px solid black;
+  margin-left: 350px;
+  background-color: #f8edeb;
+}
+
+#grad1 {
+  background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
+}
+
+.space-design {
+  display: flex;
+  margin: 10px 300px 0px 300px;
+}
+
+.rasp-and-arduino {
+  display: flex;
+  margin: 10px 300px 0px 300px;
+}
+
+.hifi-survey {
+  display: flex;
+  margin: 10px 350px 0px 350px;
+}
+
+.poster-set1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 200px 0px 200px;
+}
+
+.poster-set2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 200px 0px 200px;
+}
+
+.installation-photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 350px 0px 350px;
+}
+  
