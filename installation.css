@@ -74,8 +74,6 @@ table.style2 td {
 }
 
 #grad1 {
-  /* height: 200px; */
-  /* background-color: #FFF3E0; */
   background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
 }
 
