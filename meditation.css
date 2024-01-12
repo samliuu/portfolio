@@ -29,17 +29,17 @@ p {
 	margin-bottom: 20px;
  }
 
- ul {
+ ul.meditation-ul {
 	margin-top: 10px;
 	margin-left: 400px;
  }
 
- ol {
+ ol.meditation-ul {
 	margin-top: 10px;
 	margin-left: 400px;
  }
 
- li {
+ li.meditation-li {
 	margin-right: 300px;
  }
 

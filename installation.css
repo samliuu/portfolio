@@ -27,13 +27,13 @@ h3 {
   color: #003d52;
 }
 
-ul {
+ul.installation-ul {
   margin-top: 10px;
   margin-left: 350px;
   margin-right: 50px;
 }
 
-li {
+li.installation-li {
   margin-right: 300px;
 }
 
@@ -54,7 +54,7 @@ img {
   margin-right: auto;
 }
 
-a {
+.installation-a {
   margin-left: 350px;
   margin-right: 350px;
 }
