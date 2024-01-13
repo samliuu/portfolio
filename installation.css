@@ -1,8 +1,3 @@
-html * {
-  line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 p {
   margin-left: 350px;
   margin-right: 350px;
@@ -92,21 +87,48 @@ table.style2 td {
   margin: 10px 350px 0px 350px;
 }
 
-.poster-set1 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 200px 0px 200px;
-}
-
-.poster-set2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 200px 0px 200px;
-}
-
 .installation-photos {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 350px 0px 350px;
 }
-  
+
+/* -------------------- Slideshow --------------------  */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:  #003d52;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.survey-container {
+  display: flex;
+  margin: 10px 300px 0px 300px;
+}
