@@ -23,19 +23,16 @@ h3 {
 }
 
 ul.installation-ul {
-  margin-top: 10px;
   margin-left: 350px;
   margin-right: 50px;
 }
 
 li.installation-li {
-  margin-right: 300px;
+  margin: 0px 300px 0px 10px;
 }
 
 ol {
-  margin-top: 10px;
-  margin-left: 350px;
-  margin-right: 50px;
+  margin: 10px 50px 0px 350px;
 }
 
 img {
@@ -52,6 +49,10 @@ img {
 .installation-a {
   margin-left: 350px;
   margin-right: 350px;
+}
+
+.timeline-container {
+  display: flex;
 }
 
 table.style1,
@@ -75,6 +76,12 @@ table.style2 td {
 .space-design {
   display: flex;
   margin: 10px 300px 0px 300px;
+}
+
+.persona-storyboard {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 200px 0px 200px;
 }
 
 .rasp-and-arduino {
