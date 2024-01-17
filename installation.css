@@ -4,15 +4,14 @@ p {
 }
 
 h1 {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 0px;
+  text-align: left;
+  margin: 100px 0px 0px 350px;
   color: #003d52;
 }
 
 h2 {
-  margin-left: 300px;
-  margin-right: 300px;
+  text-align: left;
+  margin: 00px 0px 0px 350px;
   color: #003d52;
 }
 
@@ -135,6 +134,20 @@ table.style2 td {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
+/* Number text */
+.numbertext {
+  color: black;
+  font-size: 14px;
+  padding: 8px 12px;
+  margin-left: 340px;
+  top: 0;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
 .survey-container {
   display: flex;
   margin: 10px 300px 0px 300px;
