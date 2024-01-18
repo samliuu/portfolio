@@ -144,10 +144,6 @@ table.style2 td {
   top: 0;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 .survey-container {
   display: flex;
   margin: 10px 300px 0px 300px;

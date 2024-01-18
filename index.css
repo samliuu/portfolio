@@ -27,6 +27,19 @@ li.nav-li  a:hover {
   background-color: #111;
 }
 
+.project-button {
+  margin-right: 50px; 
+  height: 300px; 
+  width: 400px; 
+  border-radius: 8px;
+  border-color: white;
+}
+
+.project-container-1 {
+  display: flex;
+  margin: 100px 0px 0px 300px;
+}
+
 
 #myImg {
   cursor: pointer;
