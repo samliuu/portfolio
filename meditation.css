@@ -9,10 +9,10 @@ html,
 
 h1.title {
   font-family: "RozhaOne";
-  margin-top: 0px;
+  margin: 0px 0px 0px 0px;
   padding: 400px;
   background-color: #b97b86;
-  text-align: top;
+  text-align: center;
   font-size: 40px;
 }
 
@@ -22,9 +22,9 @@ p {
 }
 
 h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+	font-family: "RozhaOne";
+  text-align: left;
+  margin: 100px 0px 0px 300px;
 }
 
 h2 {

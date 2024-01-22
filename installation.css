@@ -1,17 +1,17 @@
 p {
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 h1 {
   text-align: left;
-  margin: 100px 0px 0px 350px;
+  margin: 100px 0px 0px 300px;
   color: #003d52;
 }
 
 h2 {
   text-align: left;
-  margin: 00px 0px 0px 350px;
+  margin: 00px 0px 0px 300px;
   color: #003d52;
 }
 
@@ -22,7 +22,7 @@ h3 {
 }
 
 ul.installation-ul {
-  margin-left: 350px;
+  margin-left: 300px;
   margin-right: 50px;
 }
 
@@ -31,7 +31,7 @@ li.installation-li {
 }
 
 ol {
-  margin: 10px 50px 0px 350px;
+  margin: 10px 50px 0px 300px;
 }
 
 img {
@@ -46,8 +46,8 @@ img {
 }
 
 .installation-a {
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .timeline-container {
