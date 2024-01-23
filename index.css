@@ -9,6 +9,11 @@ html, * {
   src: url(fonts/RozhaOne-Regular.ttf) format("truetype");
 }
 
+p {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 ul.nav-ul {
   list-style-type: none;
   margin: 0;
@@ -41,12 +46,82 @@ li.nav-li  a:hover {
   border-color: white;
 }
 
+.installation-button {
+  margin-right: 50px; 
+  height: 300px; 
+  width: 400px; 
+  border-radius: 8px;
+  border-color: white;
+  background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
+}
+
 .project-container-1 {
   display: flex;
   margin: 100px 0px 0px 300px;
 }
 
+/* -------------------- Slideshow --------------------  */
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:  black;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Next & previous buttons for installation project*/
+.prev-installation, .next-installation {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:  #003d52;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text */
+.numbertext {
+  color: black;
+  font-size: 14px;
+  padding: 8px 12px;
+  margin-left: 340px;
+  top: 0;
+}
+
+/* ------------------ Modals ------------------ */
 #myImg {
   cursor: pointer;
   transition: 0.3s;

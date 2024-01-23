@@ -1,7 +1,5 @@
 html,
 * {
-  line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,27 +14,18 @@ h1.title {
   font-size: 40px;
 }
 
-p {
-  margin-left: 300px;
-  margin-right: 300px;
-}
 
 h1 {
-	font-family: "RozhaOne";
+  font-family: "RozhaOne";
   text-align: left;
   margin: 100px 0px 0px 300px;
 }
 
-h2 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
+h2,
 h3 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  font-family: "RozhaOne";
+  text-align: left;
+  margin: 50px 0px 20px 300px;
 }
 
 ul.meditation-ul {
@@ -62,20 +51,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.project-context {
-  display: flex;
-  justify-content: space-between;
-  width: 800px;
-  margin: 50px 0px 50px 300px;
-}
-
-.context-description {
-  display: flex;
-  justify-content: space-between;
-  width: 800px;
-  margin-left: 300px;
 }
 
 .topic-pitch {
