@@ -33,7 +33,6 @@ ul.meditation-ul {
 }
 
 ol.meditation-ul {
-  margin-top: 10px;
   margin-left: 400px;
 }
 
@@ -64,7 +63,7 @@ img {
 
 .interview-takeaways {
   display: flex;
-  margin: 10px 50px 0px 50px;
+  margin: 10px 100px 0px 100px;
 }
 
 .persona {
@@ -81,12 +80,6 @@ img {
   display: flex;
   margin: 10px 50px 0px 50px;
 }
-
-/* .design-requirements {
-  width: 70%;
-  margin: auto;
-  background-color: #d3a7ae;
-} */
 
 .storyboard {
   display: flex;
