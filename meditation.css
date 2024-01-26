@@ -9,11 +9,10 @@ h1.title {
   font-family: "RozhaOne";
   margin: 0px 0px 0px 0px;
   padding: 400px;
-  background-color: #b97b86;
+  background-color: #f6bead;
   text-align: center;
   font-size: 40px;
 }
-
 
 h1 {
   font-family: "RozhaOne";
@@ -53,13 +52,11 @@ img {
   margin-right: auto;
 }
 
-.topic-pitch {
-  display: flex;
-  margin-right: 200px;
-  float: right;
+.background-container {
+  background-color: #f6bead;
 }
 
-.meal-log {
+.topic-pitch {
   display: flex;
   margin-right: 200px;
   float: right;
@@ -85,11 +82,11 @@ img {
   margin: 10px 50px 0px 50px;
 }
 
-.design-requirements {
+/* .design-requirements {
   width: 70%;
   margin: auto;
   background-color: #d3a7ae;
-}
+} */
 
 .storyboard {
   display: flex;
