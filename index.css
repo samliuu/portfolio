@@ -64,6 +64,22 @@ li.nav-li  a:hover {
   margin: 100px 0px 0px 300px;
 }
 
+/* -------------------- about.html css --------------------  */
+
+h1 {
+  text-align: left;
+  margin: 50px 0px 20px 300px;
+}
+h2.about-h2 {
+  text-align: left;
+  margin: 50px 0px 20px 300px;
+}
+
+h3.about-h3 {
+  text-align: left;
+  margin: 50px 0px 20px 300px;
+}
+
 /* -------------------- Slideshow --------------------  */
 
 /* Slideshow container */
