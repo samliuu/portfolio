@@ -38,6 +38,10 @@ li.nav-li  a:hover {
   background-color: #111;
 }
 
+li.interest-li {
+  margin: 0px 10px 0px 300px;
+}
+
 .project-button {
   margin-right: 50px; 
   height: 300px; 
