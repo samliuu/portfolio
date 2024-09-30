@@ -1,3 +1,10 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: left;
   margin: 100px 0px 0px 300px;
@@ -22,12 +29,13 @@ ul.installation-ul {
 }
 
 li.installation-li {
-  margin: 0px 300px 0px 10px;
+  margin: 0px 300px 0px 30px;
 }
 
 ol {
-  margin: 10px 50px 0px 300px;
+  margin: 10px 50px 0px 350px;
 }
+
 
 img {
   margin-top: 10px;

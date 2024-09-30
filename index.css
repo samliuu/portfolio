@@ -1,6 +1,9 @@
 html, * {
 	line-height: 2;
 	font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* font used in meditation project */
@@ -59,7 +62,20 @@ li.interest-li {
   background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
 }
 
+.pc-button {
+  margin-right: 50px; 
+  height: 300px; 
+  width: 400px; 
+  border-radius: 8px;
+  border-color: white;
+}
+
 .project-container-1 {
+  display: flex;
+  margin: 100px 0px 0px 300px;
+}
+
+.project-container-2 {
   display: flex;
   margin: 100px 0px 0px 300px;
 }
