@@ -1,6 +1,7 @@
-html, * {
-	line-height: 2;
-	font-family: Arial, Helvetica, sans-serif;
+html,
+* {
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -29,7 +30,7 @@ li.nav-li {
   float: left;
 }
 
-li.nav-li  a {
+li.nav-li a {
   display: block;
   color: white;
   text-align: center;
@@ -37,7 +38,7 @@ li.nav-li  a {
   text-decoration: none;
 }
 
-li.nav-li  a:hover {
+li.nav-li a:hover {
   background-color: #111;
 }
 
@@ -46,26 +47,26 @@ li.interest-li {
 }
 
 .project-button {
-  margin-right: 50px; 
-  height: 300px; 
-  width: 400px; 
+  margin-right: 50px;
+  height: 300px;
+  width: 400px;
   border-radius: 8px;
   border-color: white;
 }
 
 .installation-button {
-  margin-right: 50px; 
-  height: 300px; 
-  width: 400px; 
+  margin-right: 50px;
+  height: 300px;
+  width: 400px;
   border-radius: 8px;
   border-color: white;
   background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
 }
 
 .pc-button {
-  margin-right: 50px; 
-  height: 300px; 
-  width: 400px; 
+  margin-right: 50px;
+  height: 300px;
+  width: 400px;
   border-radius: 8px;
   border-color: white;
 }
@@ -81,7 +82,10 @@ li.interest-li {
 }
 
 .connection-section {
-  margin: 10px 0px 0px 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 /* -------------------- about.html css --------------------  */
@@ -100,7 +104,16 @@ h3.about-h3 {
   margin: 50px 0px 20px 300px;
 }
 
-/* -------------------- Slideshow --------------------  */
+/* ------------------ pc.html css  ------------------ */
+h1.title {
+  margin: 0px 0px 0px 0px;
+  padding: 200px;
+  background-color: #f6bead;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* -------------------- Slideshow -------------------- */
 
 /* Slideshow container */
 .slideshow-container {
@@ -121,16 +134,16 @@ h3.about-h3 {
   border-radius: 3px 0 0 3px;
 }
 
-
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color:  black;
+  color: black;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
@@ -139,14 +152,15 @@ h3.about-h3 {
 }
 
 /* Next & previous buttons for installation project*/
-.prev-installation, .next-installation {
+.prev-installation,
+.next-installation {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color:  #003d52;
+  color: #003d52;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
@@ -155,8 +169,9 @@ h3.about-h3 {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text */
@@ -174,7 +189,9 @@ h3.about-h3 {
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+  opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
@@ -187,8 +204,8 @@ h3.about-h3 {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -212,7 +229,8 @@ h3.about-h3 {
 }
 
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content,
+#caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -220,13 +238,21 @@ h3.about-h3 {
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* The Close Button */
@@ -248,7 +274,7 @@ h3.about-h3 {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
