@@ -13,6 +13,21 @@ html,
   src: url(fonts/RozhaOne-Regular.ttf) format("truetype");
 }
 
+h1 {
+  text-align: left;
+  margin: 100px 0px 0px 300px;
+}
+
+h2 {
+  text-align: left;
+  margin: 00px 0px 0px 300px;
+}
+
+h3 {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 p {
   margin-left: 300px;
   margin-right: 300px;
