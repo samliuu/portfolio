@@ -6,17 +6,28 @@
   </head>
 
   <body>
-    <nav>
-      <ul class="nav-ul">
-        <li class="nav-li"><a href="index.html">Samantha</a></li>
-        <li class="nav-li" style="float: right">
-          <a href="about.html">About Me</a>
-        </li>
-        <li class="nav-li" style="float: right">
-          <a href="index.html">Home</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="navbar">
+      <a href="index.html">Samantha</a>
+      <a href="about.html" style="float: right">About Me</a>
+      <div class="dropdown" style="float: right">
+        <button class="dropbtn">
+          College Projects
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="2d fundamentals.html">2D Fundamentals</a>
+          <a href="5d fundamentals.html">5D Fundamentals</a>
+          <a href="typography1.html">Typography 1</a>
+          <a href="typography2.html">Typography 2</a>
+          <a href="#">Link</a>
+        </div>
+      </div>
+      <a href="index.html" style="float: right">Home</a>
+    </div>
+    
+    <br />
+    <br />
+    <br />
 
     <br />
     <br />
@@ -26,7 +37,7 @@
       class="pdf"
       data="pdf/Play Book.pdf"
       margin="400px 400px 400px 400px"
-    ></object>    
+    ></object>
 
     <p>
       I created 24 compositions that work together as a series while
