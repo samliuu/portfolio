@@ -39,34 +39,6 @@ p {
   margin-right: auto;
 }
 
-ul.nav-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li.nav-li {
-  float: left;
-}
-
-li.nav-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li.nav-li a:hover {
-  background-color: #111;
-}
-
-li.interest-li {
-  margin: 0px 10px 0px 300px;
-}
-
 .project-button {
   margin-right: 50px;
   height: 300px;
