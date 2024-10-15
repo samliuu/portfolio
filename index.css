@@ -108,6 +108,8 @@ h1.title {
 
 /* -------------------- Slideshow -------------------- */
 
+.mySlides1, .mySlides2 {display: none}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: auto;
