@@ -9,6 +9,12 @@ html,
 
 /* font used in meditation project */
 @font-face {
+  font-family: "Nunito";
+  src: url(fonts/Nunito-VariableFont.ttf) format("truetype");
+}
+
+/* font used in meditation project */
+@font-face {
   font-family: "RozhaOne";
   src: url(fonts/RozhaOne-Regular.ttf) format("truetype");
 }
