@@ -7,7 +7,7 @@ html,
   padding: 0;
 }
 
-/* font used in meditation project */
+/* font used in unwind project */
 @font-face {
   font-family: "Nunito";
   src: url(fonts/Nunito-VariableFont.ttf) format("truetype");
@@ -51,6 +51,15 @@ p {
   width: 400px;
   border-radius: 8px;
   border-color: white;
+}
+
+.project-button-test {
+  margin-right: 50px;
+  height: 250px;
+  width: 850px;
+  border-radius: 8px;
+  border-color: white;
+  font-size: 25px;
 }
 
 .installation-button {
