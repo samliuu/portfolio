@@ -27,10 +27,7 @@ h3 {
   margin: 50px 0px 20px 300px;
 }
 
-ul.meditation-ul {
-  margin-left: 400px;
-}
-
+ul.meditation-ul,
 ol.meditation-ul {
   margin-left: 400px;
 }
@@ -65,22 +62,7 @@ img {
   margin: 10px 100px 0px 100px;
 }
 
-.persona {
-  display: flex;
-  margin: 10px 50px 0px 50px;
-}
-
-.journey-map {
-  display: flex;
-  margin: 10px 50px 0px 50px;
-}
-
-.concept-sketch {
-  display: flex;
-  margin: 10px 50px 0px 50px;
-}
-
-.storyboard {
+.img-container {
   display: flex;
   margin: 10px 50px 0px 50px;
 }
