@@ -36,7 +36,6 @@ ol {
   margin: 10px 50px 0px 350px;
 }
 
-
 img {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -75,25 +74,10 @@ table.style2 td {
   background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
 }
 
-.space-design {
-  display: flex;
-  margin: 10px 300px 0px 300px;
-}
-
 .persona-storyboard {
   display: flex;
   justify-content: flex-start;
   margin: 10px 200px 0px 200px;
-}
-
-.rasp-and-arduino {
-  display: flex;
-  margin: 10px 300px 0px 300px;
-}
-
-.hifi-survey {
-  display: flex;
-  margin: 10px 350px 0px 350px;
 }
 
 .installation-photos {
@@ -102,7 +86,12 @@ table.style2 td {
   margin: 10px 350px 0px 350px;
 }
 
-.survey-container {
+.four-img-container {
+  display: flex;
+  margin: 10px 400px 0px 300px;
+}
+
+.img-container {
   display: flex;
   margin: 10px 300px 0px 300px;
 }
