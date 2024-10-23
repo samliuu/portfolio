@@ -19,22 +19,12 @@ html,
   src: url(fonts/RozhaOne-Regular.ttf) format("truetype");
 }
 
-h1 {
+h1, h2 {
   text-align: left;
   margin: 100px 0px 0px 300px;
 }
 
-h2 {
-  text-align: left;
-  margin: 00px 0px 0px 300px;
-}
-
-h3 {
-  margin-left: 300px;
-  margin-right: 300px;
-}
-
-p {
+p, h3 {
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -51,15 +41,6 @@ p {
   width: 400px;
   border-radius: 8px;
   border-color: white;
-}
-
-.project-button-test {
-  margin-right: 50px;
-  height: 250px;
-  width: 850px;
-  border-radius: 8px;
-  border-color: white;
-  font-size: 25px;
 }
 
 .installation-button {
@@ -105,15 +86,6 @@ h2.about-h2 {
 h3.about-h3 {
   text-align: left;
   margin: 50px 0px 20px 300px;
-}
-
-/* ------------------ pc.html css  ------------------ */
-h1.title {
-  margin: 0px 0px 0px 0px;
-  padding: 200px;
-  background-color: #f6bead;
-  text-align: center;
-  font-size: 40px;
 }
 
 /* -------------------- Slideshow -------------------- */
