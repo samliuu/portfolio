@@ -130,13 +130,13 @@ h3.about-h3 {
 
 /* Next & previous buttons for installation project*/
 .prev-installation,
-.next-installation {
+.next-installation  {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin: 0px 200px 0px 200px;
   color: #003d52;
   font-weight: bold;
   font-size: 30px;
@@ -147,8 +147,11 @@ h3.about-h3 {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.next:hover,
+.prev-installation:hover,
+.next-installation:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0px 200px 0px 200px;
 }
 
 /* Number text */
