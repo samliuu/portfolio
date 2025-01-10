@@ -168,14 +168,18 @@
     <!-- ---------------- Considerations ---------------- -->
     <h1 class="h1-main">Defining the MVP</h1>
     <p class="p-main">We identified the following key features:</p>
-    <ul class="ul-main">
-      <li class="li-main">
-        A functioning, high-fidelity prototype of user interface
-      </li>
-      <li class="li-main">Designed animations</li>
-      <li class="li-main">Solidified installation space</li>
-      <li class="li-main">Fully constructed installation</li>
-    </ul>
+    <div id="grid">
+      <div id="left">
+        <li style="margin-left: -90px">
+          A functioning, high-fidelity prototype of user interface
+        </li>
+        <li style="margin-left: -90px">Designed animations</li>
+      </div>
+      <div id="right">
+        <li style="margin-left: 130px">Solidified installation space</li>
+        <li style="margin-left: 130px">Fully constructed installation</li>
+      </div>
+    </div>
     <br />
 
     <p class="p-main">
@@ -209,36 +213,90 @@
     </ul>
     <br />
 
-    <!-- -------------- Designs -------------- -->
     <div id="grad1">
       <br />
-      <h1 class="h1-main">Designs</h1>
       <!-- -------------- Persona & Storyboard -------------- -->
       <br />
-      <h2 class="h2-main">Persona & Storyboard</h2>
+      <h1 class="h1-main">Persona & Storyboard</h1>
       <br />
       <p class="p-main">
-        Lisa Grant, represented our targed audience, which were college students
-        who wanted a spaced to relax and practice mindfulness. She often feels
-        anxious because of the amout of assignments she has to complete. She
-        wants to look for a space to relieve some of her anxiety.
+        After defining our MVP based on user research, it was time to create
+        personas. This helped in visualizing the target audience, which were
+        college students who want a space to relax and practice mindfulness. Our
+        persona, Lisa Grant, was referred to throughout the entire design to
+        remain focused when we made design decisions.
       </p>
       <br />
+      <div
+        id="grid"
+        style="
+          margin: 0px 200px 0px 200px;
+          grid-template-columns: 0.25fr 0.75fr;
+          border-style: groove;
+          background: #fcede9;
+        "
+      >
+        <div id="left" style="margin-left: 10px">
+          <b style="font-size: 30px">Lisa Grant</b>
+          <br />
+          <img src="images/installation/lisa_persona.png" width="100%" />
 
-      <div style="display: flex; margin: 0px 200px 0px 200px">
-        <img
-          src="images/installation/persona.png"
-          width="45%"
-          class="center"
-          style="margin-bottom: 50px"
-        />
-        <img
-          id="myImg"
-          src="images/installation/storyboard.png"
-          width="50%"
-          class="center"
-        />
+          Age: 20 Year Old
+          <br />
+          Occupation: College Student
+          <br />
+          Location: Boston, MA
+          <br />
+          <br />
+          <b
+            ><i style="text-align: center"
+              >"Sometimes my responsiblites give me too much anxiety"</i
+            ></b
+          >
+        </div>
+        <div id="right" style="margin-right: 10px">
+          <br />
+          <br />
+          <b>Background</b>
+          <br />
+          Lisa is a third year Computer Science major at Northeastern
+          University. Her favorite thing to do during her free time is to read a
+          book at the library or a local cafe with a cup of espresso. To meet
+          new friends, Lisa joined a club at school to explore her creativity
+          and socialize with club members.
+          <br />
+          <b>Goals</b>
+          <li>Look for a new space on campus to read and relax</li>
+          <li>Find a way to destress after classes and homework</li>
+          <br />
+          <div id="grid" style="margin: 0px 0px 0px 0px">
+            <div id="left">
+              <b>Motivations</b>
+              <li>Cares about her mental well-being and physical health</li>
+              <li>Meeting people to talk about how they are feeling</li>
+              <li>Interested in mediation and relaxation methods</li>
+              <br />
+            </div>
+            <div id="right">
+              <b>Frustrations</b>
+              <li>Difficulty balancing all responsibilites on a daily basis</li>
+              <li>
+                Not sure what resources she can find to help with anxiety (e.g.,
+                what can she do/where can she go to relieve some of her anxiety)
+              </li>
+            </div>
+          </div>
+        </div>
       </div>
+      <br />
+      <!-- -------------- Persona Finished -------------- -->
+       
+      <img
+        id="myImg"
+        src="images/installation/storyboard.png"
+        width="50%"
+        class="center"
+      />
       <br />
       <br />
       <br />
@@ -277,7 +335,7 @@
         <br />
       </div>
 
-      <h2 class="h2-main">Web Development</h2>
+      <h1 class="h1-main">Web Development</h1>
       <p class="p-main">
         We created a website with React for users to interact with the
         installation. There is a home page that has a quick description of what
@@ -287,6 +345,8 @@
         who are interested. Here is the link to the website:
         https://lighten-up.netlify.app
       </p>
+      <br />
+      <br />
 
       <h2 class="h2-main">Lo-fidelity Wireframes</h2>
       <img
