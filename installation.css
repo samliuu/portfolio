@@ -74,12 +74,6 @@ table.style2 td {
   background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
 }
 
-.persona-storyboard {
-  display: flex;
-  justify-content: flex-start;
-  margin: 10px 200px 0px 200px;
-}
-
 .installation-photos {
   display: flex;
   flex-wrap: wrap;
@@ -97,14 +91,6 @@ table.style2 td {
 }
 
 /* --------------------- Main Project CSS --------------------- */
-#grid-installation {
-  display: grid;
-  margin: 0px 200px 0px 200px;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: auto auto;
-  grid-column-gap: 100px;
-}
-
 .p-main {
   margin: 0px 200px 0px 200px;
 }
