@@ -14,37 +14,18 @@ h1.title {
   font-size: 40px;
 }
 
-h1 {
-  font-family: "RozhaOne";
-  text-align: left;
-  margin: 100px 0px 0px 300px;
-}
-
+h1,
 h2,
 h3 {
   font-family: "RozhaOne";
   text-align: left;
-  margin: 50px 0px 20px 300px;
+  margin: 0px 200px 0px 200px;
 }
 
-ul.meditation-ul,
-ol.meditation-ul {
-  margin-left: 400px;
-}
-
-li.meditation-li {
-  margin-right: 300px;
-}
-
-img {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ul,
+ol{
+  text-align: left;
+  margin: 0px 200px 0px 220px;
 }
 
 .background-container {
