@@ -85,6 +85,11 @@ img {
   width: 80%;
 }
 
+.img-container {
+  display: flex;
+  margin: 10px 200px 0px 200px;
+}
+
 /* -------------------- Grids --------------------  */
 #grid {
   display: grid;
