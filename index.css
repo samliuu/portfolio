@@ -99,6 +99,14 @@ img {
   grid-column-gap: 100px;
 }
 
+#aboutme-grid {
+  display: grid;
+  margin: 0px 100px 0px 200px; 
+  grid-template-columns: 0.1fr 0.9fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+}
+
 /* -------------------- about.html css --------------------  */
 
 /* h1 {
@@ -118,11 +126,16 @@ h3.about-h3 {
 table.style,
 table.style th,
 table.style td {
-   border: 1px solid black;
+  border: 1px solid black;
   margin-left: 360px;
   background-color: #f8edeb;
   text-align: left;
+}
 
+.rectangle {
+  height: 400px;
+  width: 200px;
+  background-color: #555;
 }
 
 /* ------------------ Modals ------------------ */
