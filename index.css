@@ -8,31 +8,29 @@ html,
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  body {
+@media (max-width: 1200px) {
+  body, h1, h2, p, ul, li, ol, img, .background-container {
     width: 65%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; text-align: justify;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
+@media (max-width: 992px) {
+  body, h1, h2, p, ul, li, ol, img, .background-container {
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; text-align: justify;
   }
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  body {
-    width: 100%;
-  }
-    button {
-    width: 20%;
-    min-width: 100px;
-    max-width: 250px;
+  body, h1, h2, p, ul, li, ol, img, .background-container {
+width: 100%;
+    margin-left: auto;
+    margin-right: auto; text-align: justify;
   }
 }
 
