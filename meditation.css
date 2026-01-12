@@ -6,26 +6,44 @@ html,
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .background-container {
     width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .background-container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+
+  p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .background-container {
     width: 100%;
+  }
+
+  p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

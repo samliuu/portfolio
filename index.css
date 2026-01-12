@@ -9,7 +9,7 @@ html,
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
-  body, h1, h2, p, ul, li, ol, img {
+  body, h1, h2, ul, li, ol, img {
     width: 65%;
     margin-left: auto;
     margin-right: auto; text-align: justify;
@@ -18,7 +18,7 @@ html,
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
-  body, h1, h2, p, ul, li, ol, img {
+  body, h1, h2, ul, li, ol, img {
     width: 100%;
     margin-left: auto;
     margin-right: auto; text-align: justify;
@@ -27,7 +27,7 @@ html,
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  body, h1, h2, p, ul, li, ol, img {
+  body, h1, h2, ul, li, ol, img {
 width: 100%;
     margin-left: auto;
     margin-right: auto; text-align: justify;
