@@ -7,6 +7,13 @@ html,
   padding: 0;
 }
 
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+  body {
+    width: 90%;
+  }
+}
+
 /* font used in unwind project */
 @font-face {
   font-family: "Nunito";
@@ -102,7 +109,7 @@ img {
 
 #aboutme-grid {
   display: grid;
-  margin: 0px 100px 0px 200px; 
+  margin: 0px 100px 0px 200px;
   grid-template-columns: 0.1fr 0.9fr;
   grid-template-rows: auto auto;
   grid-column-gap: 10px;
