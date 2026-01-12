@@ -7,12 +7,31 @@ html,
   padding: 0;
 }
 
-/* Medium devices (tablets, 768px and up)*/
+/* 
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    body {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+
+  /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+  /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
   body {
-    width: 90%;
+    width: 100%;
   }
 }
+
 
 /* font used in unwind project */
 @font-face {
