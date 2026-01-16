@@ -19,7 +19,7 @@ html,
   }
 
   h1,
-  h2 {
+  h2, h3 {
     font-family: "RozhaOne";
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,7 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
-  h1 {
+  h1, h2, h3 {
     font-family: "RozhaOne";
     margin-left: 200px;
     margin-right: auto;
@@ -66,7 +66,7 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
-  h1, h2 {
+  h1, h2, h3 {
     font-family: "RozhaOne";
     margin-left: auto;
     margin-right: auto;
@@ -80,6 +80,9 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
+  h1.title {
+    margin: auto;
+  }
 }
 
 h1.title {
@@ -90,16 +93,6 @@ h1.title {
   text-align: center;
   font-size: 40px;
 }
-
-h1,
-h2,
-h3 {
-  font-family: "RozhaOne";
-}
-
-/* ul, ol {
-  margin: 0px 200px 0px 200px;
-} */
 
 .background-container {
   background-color: #f6bead;
