@@ -76,6 +76,10 @@ html,
     text-align: left;
     margin-left: 50px;
   }
+ #grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 h1.title {
