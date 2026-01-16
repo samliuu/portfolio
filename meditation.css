@@ -12,11 +12,21 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
-
   p {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  h1 {
+    font-family: "RozhaOne";
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul,
+  ol {
+    margin: 0px 200px 0px 220px;
+    text-align: left;
   }
 }
 
@@ -27,11 +37,20 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
+  h1 {
+    font-family: "RozhaOne";
 
+    margin-left: auto;
+    margin-right: auto;
+  }
   p {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
+  }
+  ul, ol {
+    margin: 0px 200px 0px 220px;
+    text-align: left;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -39,11 +58,20 @@ html,
   .background-container {
     width: 100%;
   }
-
   p {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
+  }
+  h1 {
+    font-family: "RozhaOne";
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul, ol {
+       margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
 }
 
@@ -60,8 +88,6 @@ h1,
 h2,
 h3 {
   font-family: "RozhaOne";
-  text-align: left;
-  margin: 0px 200px 0px 200px;
 }
 
 ul,

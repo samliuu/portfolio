@@ -6,26 +6,43 @@ html,
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  body {
-    width: 65%;
+@media (max-width: 1200px) {
+  p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .h1-main {
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
-    width: 100%;
+@media (max-width: 992px) {
+  p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .h1-main {
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
   }
 }
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-  body {
-    width: 100%;
+@media screen and (max-width: 768px) {
+  p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .h1-main {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
