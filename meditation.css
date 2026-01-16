@@ -6,15 +6,15 @@ html,
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .background-container {
-    width: 65%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
   p {
     text-align: justify;
-    margin-left: auto;
+    margin-left: 30px;
     margin-right: auto;
   }
 
@@ -25,15 +25,14 @@ html,
     margin-right: auto;
   }
   ul,
-  ol,
-  li {
+  ol {
     text-align: left;
     margin: 0px 200px 0px 220px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .background-container {
     width: 100%;
     margin-left: auto;
@@ -41,20 +40,19 @@ html,
   }
   h1 {
     font-family: "RozhaOne";
-
-    margin-left: auto;
+    margin-left: 200px;
     margin-right: auto;
   }
   p {
     text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-  } */
+    margin-left: 200px;
+    margin-right: 200px;
+  } 
   ul,
-  ol,
-  li {
+  ol {
     text-align: left;
-    margin: 0px 200px 0px 220px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
@@ -74,9 +72,9 @@ html,
     margin-right: auto;
   }
   ul,
-  ol,
-  li {
-    margin: 0px 0px 0px 0px;
+  ol {
+    text-align: left;
+    margin-left: 50px;
   }
 }
 
@@ -95,11 +93,9 @@ h3 {
   font-family: "RozhaOne";
 }
 
-ul,
-ol {
-  text-align: left;
-  margin: 0px 200px 0px 220px;
-}
+/* ul, ol {
+  margin: 0px 200px 0px 200px;
+} */
 
 .background-container {
   background-color: #f6bead;
