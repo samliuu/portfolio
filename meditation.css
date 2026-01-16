@@ -57,7 +57,7 @@ html,
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 390px) and (max-width: 768px) {
   .background-container {
     width: 100%;
   }
