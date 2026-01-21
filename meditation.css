@@ -27,7 +27,7 @@ html,
   ul,
   ol {
     text-align: left;
-    margin: 0px 200px 0px 220px;
+    margin: 0px 200px 0px 240px;
   }
 }
 
@@ -51,7 +51,7 @@ html,
   ul,
   ol {
     text-align: left;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-right: 200px;
   }
 }
