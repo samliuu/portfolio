@@ -45,14 +45,13 @@ html,
   }
   p {
     text-align: justify;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 0px 200px 0px 200px;
   } 
   ul,
   ol {
     text-align: left;
-    margin-left: 220px;
-    margin-right: 200px;
+    margin: 0px 200px 0px 220px;
+
   }
 }
 
