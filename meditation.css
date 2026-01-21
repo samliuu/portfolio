@@ -81,7 +81,7 @@ html,
   }
   h1.title {
     margin: auto;
-    text-align: center;
+    text-align: auto;
   }
 }
 
