@@ -44,6 +44,13 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
+    #grid {
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-column-gap: 100px;
+  }
 }
 
 h1 {
