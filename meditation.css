@@ -69,6 +69,7 @@ html,
   }
   h1.title {
     width: 100%;
+    padding: auto;
   }
   h1,
   h2,
@@ -91,7 +92,7 @@ html,
 h1.title {
   font-family: "RozhaOne";
   margin: auto;
-  padding: 100px 200px 100px 200px;
+  padding: 200px;
   background-color: #f6bead;
   text-align: center;
   font-size: 40px;
