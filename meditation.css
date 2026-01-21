@@ -61,8 +61,6 @@ html,
 @media screen and (min-width: 390px) and (max-width: 768px) {
   .background-container {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
   p {
     text-align: justify;
@@ -70,7 +68,7 @@ html,
     margin-right: auto;
   }
   h1.title {
-    margin: auto;
+    margin-left: 100px;
     text-align: center;
   }
   h1,
@@ -93,7 +91,7 @@ html,
 
 h1.title {
   font-family: "RozhaOne";
-  margin: 0px 0px 0px 0px;
+  margin: auto;
   padding: 200px;
   background-color: #f6bead;
   text-align: center;
