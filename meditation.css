@@ -89,6 +89,7 @@ html,
     padding: 100px;
     background-color: #f6bead;
     font-size: 40px; 
+    text-align: center;
   }
   h1,
   h2,
@@ -102,10 +103,15 @@ html,
     text-align: left;
     margin-left: 50px;
   }
-  #grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
+#grid {
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-column-gap: 100px;
+  gap: 10px;
+}
+
 }
 
 .background-container {
