@@ -69,6 +69,10 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
+  h1.title {
+    margin: auto;
+    text-align: auto;
+  }
   h1,
   h2,
   h3 {
@@ -84,10 +88,6 @@ html,
   #grid {
     margin-left: auto;
     margin-right: auto;
-  }
-  h1.title {
-    margin: auto;
-    text-align: auto;
   }
 }
 
