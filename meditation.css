@@ -109,9 +109,7 @@ html,
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-column-gap: 100px;
-  gap: 10px;
 }
-
 }
 
 .background-container {
