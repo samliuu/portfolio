@@ -10,19 +10,19 @@ html,
   p {
     text-align: justify;
     margin-left: 400px;
-    margin-right: 200px;
+    margin-right: 400px;
   }
   h1,
   h2,
   h3 {
     font-family: "RozhaOne";
     margin-left: 400px;
-    margin-right: auto;
   }
   ul,
-  ol {
+  ol,
+  li {
     text-align: left;
-    margin: 0px 300px 0px 420px;
+    margin: 0px 400px 0px 420px;
   }
   #grid {
     display: grid;
