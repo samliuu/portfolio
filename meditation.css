@@ -80,6 +80,14 @@ html,
     margin-left: 20px;
     margin-right: 20px;
   }
+  h1.title {
+  font-family: "RozhaOne";
+  margin: auto;
+  padding: 200px;
+  background-color: #f6bead;
+  text-align: center;
+  font-size: 40px;
+}
   h1,
   h2,
   h3 {
