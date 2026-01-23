@@ -7,18 +7,10 @@ html,
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  .background-container {
+  /* .background-container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-  h1.title {
-    font-family: "RozhaOne";
-    margin: auto;
-    padding: 200px;
-    background-color: #f6bead;
-    text-align: center;
-    font-size: 40px;
   }
   p {
     text-align: justify;
@@ -36,7 +28,7 @@ html,
   ol {
     text-align: left;
     margin: 0px 200px 0px 240px;
-  }
+  } */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -45,14 +37,6 @@ html,
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-  h1.title {
-    font-family: "RozhaOne";
-    margin: auto;
-    padding: 200px;
-    background-color: #f6bead;
-    text-align: center;
-    font-size: 40px;
   }
   h1,
   h2,
@@ -65,13 +49,13 @@ html,
     text-align: justify;
     margin: 0px 200px 0px 200px;
   }
+  img {
+    width: 50%;
+  }
   ul,
   ol {
     text-align: left;
-    margin: 0px 200px 0px 220px;
-  }
-  img {
-    width: 50%;
+    margin: 0px 200px 0px 240px;
   }
 }
 
@@ -84,14 +68,6 @@ html,
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
-  }
-  h1.title {
-    width: 100%;
-    margin: auto;
-    padding: 100px;
-    background-color: #f6bead;
-    font-size: 40px;
-    text-align: center;
   }
   h1,
   h2,
@@ -111,9 +87,18 @@ html,
     grid-template-rows: auto;
     grid-column-gap: 100px;
   }
-    img {
+  img {
     width: 95%;
   }
+}
+
+h1.title {
+  font-family: "RozhaOne";
+  margin: auto;
+  padding: 200px;
+  background-color: #f6bead;
+  text-align: center;
+  font-size: 40px;
 }
 
 .background-container {
