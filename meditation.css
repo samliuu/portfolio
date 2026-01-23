@@ -44,7 +44,7 @@ html,
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1919) {
   .background-container {
     width: 100%;
     margin-left: auto;
