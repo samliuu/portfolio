@@ -37,6 +37,9 @@ html,
   img {
     width: 40%;
   }
+  #grid .design-proposal-li {
+    margin-left: 300px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
