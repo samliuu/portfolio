@@ -73,6 +73,8 @@ html,
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 390px) and (max-width: 768px) {
   .background-container {
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
   }
   p {
@@ -81,13 +83,10 @@ html,
     margin-right: 20px;
   }
   h1.title {
-  font-family: "RozhaOne";
-  margin: auto;
-  padding: 200px;
-  background-color: #f6bead;
-  text-align: center;
-  font-size: 40px;
-}
+ 
+    padding: 100px;
+
+  }
   h1,
   h2,
   h3 {
