@@ -10,7 +10,7 @@ html,
   p {
     text-align: justify;
     margin-left: 300px;
-    margin-right: auto;
+    margin-right: 200px;
   }
   h1,
   h2,
@@ -30,6 +30,9 @@ html,
     grid-template-columns: 0.75fr auto;
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
+  }
+  #grid ol {
+    margin: 0px 0px 20px 320px;
   }
   .journey-map-img {
     height: 50%;
