@@ -35,11 +35,6 @@ html,
     margin-left: auto;
     margin-right: auto; 
   }
-    p {
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 /* font used in unwind project */
@@ -58,12 +53,12 @@ html,
   margin: 0px 200px 0px 200px;
 } */
 
-h1,
+/* h1,
 h2,
 h3 {
   text-align: left;
   margin: 0px 200px 0px 200px;
-}
+} */
 
 .ul,
 .ol,
