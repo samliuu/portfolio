@@ -9,7 +9,7 @@ html,
 @media screen and (min-width: 1200px) {
   p {
     text-align: justify;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: auto;
   }
   h1,
@@ -30,6 +30,9 @@ html,
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
+  }
+  .journey-map img {
+    height: 70%;
   }
 }
 
