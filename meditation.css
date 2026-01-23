@@ -6,7 +6,7 @@ html,
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   p {
     text-align: justify;
     margin-left: 300px;
