@@ -38,7 +38,7 @@ html,
     width: 40%;
   }
   .design-proposal-li {
-    margin-left: 300px;
+    margin-left: 200px;
   }
 }
 
@@ -118,5 +118,5 @@ h1.title {
 
 .img-container {
   display: flex;
-  margin: 10px 50px 0px 50px;
+  margin: 10px 150px 0px 150px;
 }
