@@ -5,7 +5,7 @@ html,
   padding: 0;
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1920px and up) */
 @media screen and (min-width: 1920px) {
   p {
     text-align: justify;
@@ -44,7 +44,7 @@ html,
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  .background-container {
+  /* .background-container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +67,7 @@ html,
   ol {
     text-align: left;
     margin: 0px 200px 0px 240px;
-  }
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
