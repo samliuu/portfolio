@@ -16,6 +16,13 @@ html,
     margin-left: 400px;
     margin-right: 400px;
   }
+  #grid {
+    display: grid;
+    margin-left: 400px;
+    grid-template-columns: 0.5fr auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 100px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -32,9 +39,16 @@ html,
     margin-right: auto;
   }
   ul,
-  li {
+  ol {
     text-align: left;
-    margin: 0px 200px 0px 220px;
+    margin: 0px 200px 0px 240px;
+  }
+  #grid {
+  display: grid;
+  margin: 0px 200px 0px 200px;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 100px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -51,7 +65,7 @@ html,
     color: #003d52;
   }
   ul,
-  li {
+  ol {
     text-align: left;
     margin: 0px 50px 0px 50px;
   }
@@ -68,17 +82,17 @@ html,
 }
 
 ul.installation-ul {
-  margin-left: 300px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 li.installation-li {
-  margin: 0px 300px 0px 30px;
+  margin: 0px 0px 0px 0px;
 }
 
-ol {
-  margin: 10px 50px 0px 350px;
-}
+/* ol {
+  margin: 0px 0px 0px 0px;
+} */
 
 .installation-a {
   margin-left: 200px;
