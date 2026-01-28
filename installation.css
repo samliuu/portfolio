@@ -36,7 +36,7 @@ html,
   h3 {
     text-align: justify;
     margin-left: 200px;
-    margin-right: auto;
+    color: #003d52;
   }
   ul,
   ol {
@@ -49,6 +49,20 @@ html,
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
+  }
+  .installation-a {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 220px;
+  }
+  .installation-photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 250px 0px 250px;
+  }
+  .img-container {
+    display: flex;
+    margin: 10px 300px 0px 300px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -71,7 +85,7 @@ html,
   }
   #grid {
     display: grid;
-    margin-left: 20px;
+    margin: 0px 20px 0px 20px;
     grid-template-columns: auto;
     grid-column-gap: 50px;
   }
@@ -79,7 +93,23 @@ html,
     width: 50%;
   }
   img {
-    width: 60%;
+    width: 100%;
+  }
+  .installation-a {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .installation-photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: auto;
   }
 }
 
@@ -95,11 +125,6 @@ li.installation-li {
 /* ol {
   margin: 0px 0px 0px 0px;
 } */
-
-.installation-a {
-  margin-left: 200px;
-  margin-right: 200px;
-}
 
 .timeline-container {
   display: flex;
@@ -121,20 +146,4 @@ table.style2 td {
 
 #grad1 {
   background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
-}
-
-.installation-photos {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 250px 0px 250px;
-}
-
-.four-img-container {
-  display: flex;
-  margin: 10px 400px 0px 300px;
-}
-
-.img-container {
-  display: flex;
-  margin: 10px 300px 0px 300px;
 }
