@@ -44,11 +44,11 @@ html,
     margin: 0px 200px 0px 240px;
   }
   #grid {
-  display: grid;
-  margin: 0px 200px 0px 200px;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: auto auto;
-  grid-column-gap: 100px;
+    display: grid;
+    margin: 0px 200px 0px 200px;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 100px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -73,11 +73,13 @@ html,
     display: grid;
     margin-left: 20px;
     grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-column-gap: 100px;
+    grid-column-gap: 50px;
+  }
+  .lisa-persona {
+    width: 50%;
   }
   img {
-    width: 95%;
+    width: 60%;
   }
 }
 
