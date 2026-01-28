@@ -84,6 +84,13 @@ html,
     text-align: left;
     margin: 0px 200px 0px 240px;
   }
+  #grid {
+    display: grid;
+    margin: 0px 200px 0px 200px;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 100px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
