@@ -42,11 +42,11 @@ html,
   .installation-photos {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 350px 0px 350px;
+    margin: 10px 150px 0px 150px;
   }
   .img-container {
     display: flex;
-    margin: 10px 400px 0px 400px;
+    margin: 10px 200px 0px 200px;
   }
   figcaption {
     text-align: center;
