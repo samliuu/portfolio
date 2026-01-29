@@ -26,7 +26,7 @@ html,
   #grid {
     display: grid;
     margin-left: 400px;
-    grid-template-columns: 0.5fr auto;
+    grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
