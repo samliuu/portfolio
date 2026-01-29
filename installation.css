@@ -25,13 +25,27 @@ html,
   }
   #grid {
     display: grid;
-    margin-left: 400px;
+    margin: 0px 400px 0px 400px;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
   img {
     width: 40%;
+  }
+  .installation-a {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 220px;
+  }
+  .installation-photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 250px 0px 250px;
+  }
+  .img-container {
+    display: flex;
+    margin: 10px 300px 0px 300px;
   }
 }
 
