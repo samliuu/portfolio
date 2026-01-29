@@ -42,11 +42,11 @@ html,
   .installation-photos {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 250px 0px 250px;
+    margin: 10px 350px 0px 350px;
   }
   .img-container {
     display: flex;
-    margin: 10px 300px 0px 300px;
+    margin: 10px 400px 0px 400px;
   }
   figcaption {
     text-align: center;
@@ -148,10 +148,6 @@ ul.installation-ul {
 
 li.installation-li {
   margin: 0px 0px 0px 0px;
-}
-
-.timeline-container {
-  display: flex;
 }
 
 table.style1,
