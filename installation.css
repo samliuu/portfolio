@@ -31,8 +31,7 @@ html,
     grid-column-gap: 100px;
   }
   img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
   }
   .installation-a {
     display: flex;
@@ -95,7 +94,7 @@ html,
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 390px) and (max-width: 768px) {
-  p {
+  /* p {
     text-align: justify;
     margin: 0px 20px 0px 20px;
   }
@@ -138,7 +137,7 @@ html,
     flex-wrap: wrap;
     margin: auto;
     overflow: auto;
-  }
+  } */
 }
 
 ul.installation-ul {
