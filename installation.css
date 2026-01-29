@@ -30,10 +30,10 @@ html,
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
-  img {
+  /* img {
     width: 60%;
     height: 50%;
-  }
+  } */
   .installation-a {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +78,7 @@ html,
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
-  .installation-a {
+  /* .installation-a {
     display: flex;
     flex-wrap: wrap;
     margin-left: 220px;
@@ -91,7 +91,7 @@ html,
   .img-container {
     display: flex;
     margin: 10px 300px 0px 300px;
-  }
+  } */
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 390px) and (max-width: 768px) {
