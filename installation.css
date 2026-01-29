@@ -31,8 +31,8 @@ html,
     grid-column-gap: 100px;
   }
   img {
-    width: 40%;
-    height: 50%
+    width: 60%;
+    height: 50%;
   }
   .installation-a {
     display: flex;
