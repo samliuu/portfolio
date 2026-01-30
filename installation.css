@@ -55,8 +55,8 @@ html,
   .img-container {
     display: flex;
     flex-wrap: wrap;
-    height: 40%;
-    width: 40%;
+    /* height: 40%;
+    width: 40%; */
     margin: 0px 400px 0px 400px;
   }
   figcaption {
