@@ -54,6 +54,7 @@ html,
   }
   .img-container {
     display: flex;
+    flex-wrap: wrap;
     margin: 10px 400px 0px 400px;
   }
   figcaption {
