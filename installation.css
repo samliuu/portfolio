@@ -65,7 +65,7 @@ html,
 }
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1919px) {
-  /* p {
+  p {
     text-align: justify;
     margin: 0px 200px 0px 220px;
   }
@@ -102,11 +102,11 @@ html,
     display: flex;
     flex-wrap: wrap;
     margin: 10px 300px 0px 300px;
-  } */
+  } 
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 390px) and (max-width: 768px) {
-  /* p {
+  p {
     text-align: justify;
     margin: 0px 20px 0px 20px;
   }
@@ -156,7 +156,7 @@ html,
     display: wrap;
     flex-wrap: wrap;
     overflow: auto;
-  } */
+  } 
 }
 
 ul.installation-ul {
