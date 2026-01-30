@@ -55,12 +55,7 @@ html,
   .img-container {
     display: flex;
     flex-wrap: wrap;
-    /* height: 40%;
-    width: 40%; */
     margin: 0px 400px 0px 400px;
-  }
-  figcaption {
-    text-align: center;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -102,7 +97,7 @@ html,
     display: flex;
     flex-wrap: wrap;
     margin: 10px 300px 0px 300px;
-  } 
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 390px) and (max-width: 768px) {
@@ -156,7 +151,11 @@ html,
     display: wrap;
     flex-wrap: wrap;
     overflow: auto;
-  } 
+  }
+}
+
+figcaption {
+  text-align: center;
 }
 
 ul.installation-ul {
