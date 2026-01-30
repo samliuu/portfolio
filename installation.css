@@ -44,6 +44,14 @@ html,
     flex-wrap: wrap;
     margin: 10px 200px 0px 200px;
   }
+  .wireframes-img {
+    height: 30%;
+    width: 50%;
+  }
+  .poster-img {
+    height: 40%;
+    width: 50%;
+  }
   .img-container {
     display: flex;
     margin: 10px 200px 0px 200px;
@@ -90,11 +98,11 @@ html,
   .img-container {
     display: flex;
     margin: 10px 300px 0px 300px;
-  } 
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 390px) and (max-width: 768px) {
-   p {
+  p {
     text-align: justify;
     margin: 0px 20px 0px 20px;
   }
@@ -144,7 +152,7 @@ html,
     display: wrap;
     flex-wrap: wrap;
     overflow: auto;
-  } 
+  }
 }
 
 ul.installation-ul {
