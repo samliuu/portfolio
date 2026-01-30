@@ -132,6 +132,14 @@ html,
     flex-wrap: wrap;
     margin: auto;
   }
+  .wireframes-img {
+    height: 30%;
+    width: 50%;
+  }
+  .poster-img {
+    height: 40%;
+    width: 50%;
+  }
   .img-container {
     display: wrap;
     flex-wrap: wrap;
