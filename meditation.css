@@ -141,6 +141,9 @@ html,
   img {
     width: 95%;
   }
+  .design-proposal-li {
+    margin-left: -170px;
+  }
   .img-container {
     display: flex;
     flex-wrap: wrap;
