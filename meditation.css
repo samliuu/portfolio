@@ -48,6 +48,11 @@ html,
   .design-proposal-li {
     margin-left: 200px;
   }
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 400px 0px 400px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -91,6 +96,10 @@ html,
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
+  .img-container {
+    display: flex;
+    margin: 10px 150px 0px 150px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -132,13 +141,13 @@ html,
   img {
     width: 95%;
   }
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10px 0px 10px;
+  }
 }
 
 .background-container {
   background-color: #f6bead;
-}
-
-.img-container {
-  display: flex;
-  margin: 10px 150px 0px 150px;
 }

@@ -30,10 +30,6 @@ html,
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
-  /* img {
-    width: 40%;
-    height: 40%;
-  } */
   .installation-a {
     display: flex;
     flex-wrap: wrap;
