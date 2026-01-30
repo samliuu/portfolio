@@ -30,10 +30,10 @@ html,
     grid-template-rows: auto auto;
     grid-column-gap: 100px;
   }
-  /* img {
+  img {
     width: 40%;
     height: 40%;
-  } */
+  }
   .installation-a {
     display: flex;
     flex-wrap: wrap;
@@ -55,11 +55,11 @@ html,
   .installation-photos {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 250px 0px 250px;
+    margin: 10px 450px 0px 450px;
   }
   .img-container {
     display: flex;
-    margin: 10px 200px 0px 200px;
+    margin: 10px 400px 0px 400px;
   }
   figcaption {
     text-align: center;
