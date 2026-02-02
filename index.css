@@ -14,9 +14,33 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
-  /* img {
-    width:50%;
-  } */
+  p {
+    margin: 0px 400px 0px 400px;
+  }
+  h1,
+  h2,
+  h3 {
+    margin-left: 400px;
+  }
+  .meditation-button {
+    height: 300px;
+    width: 100%;
+    border-color: white;
+  }
+  .installation-button {
+    height: 300px;
+    width: 100%;
+    border-color: white;
+    background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
+  }
+  #button {
+    display: grid;
+    margin: 0px 400px 0px 400px;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    border: 0.5px solid pink;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -26,6 +50,33 @@ html,
     margin-left: auto;
     margin-right: auto;
   }
+  p {
+    margin: 0px 300px 0px 300px;
+  }
+  h1,
+  h2,
+  h3 {
+    margin-left: 300px;
+  }
+  .meditation-button {
+    height: 300px;
+    width: 100%;
+    border-color: white;
+  }
+  .installation-button {
+    height: 300px;
+    width: 100%;
+    border-color: white;
+    background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
+  }
+  #button {
+    display: grid;
+    margin: 0px 300px 0px 300px;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    border: 0.5px solid pink;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -34,6 +85,32 @@ html,
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+  p {
+    margin: 0px 20px 0px 20px;
+  }
+  h1,
+  h2,
+  h3 {
+    margin-left: 20px;
+  }
+  .meditation-button {
+    height: 300px;
+    width: 100%;
+    border-color: white;
+  }
+  .installation-button {
+    height: 300px;
+    width: 100%;
+    border-color: white;
+    background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
+  }
+  #button {
+    display: grid;
+    margin: 0px 20px 0px 20px;
+    grid-template-columns: auto;
+    grid-column-gap: 50px;
+    border: 0.5px solid pink;
   }
 }
 
@@ -48,17 +125,6 @@ html,
   font-family: "RozhaOne";
   src: url(fonts/RozhaOne-Regular.ttf) format("truetype");
 }
-
-/* p {
-  margin: 0px 200px 0px 200px;
-} */
-
-/* h1,
-h2,
-h3 {
-  text-align: left;
-  margin: 0px 200px 0px 200px;
-} */
 
 .ul,
 .ol,
@@ -78,36 +144,6 @@ img {
   margin-bottom: 10px;
 }
 
-.project-button {
-  margin-right: 50px;
-  height: 300px;
-  width: 400px;
-  border-radius: 8px;
-  border-color: white;
-}
-
-.installation-button {
-  margin-right: 50px;
-  height: 300px;
-  width: 400px;
-  border-radius: 8px;
-  border-color: white;
-  background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
-}
-
-.pc-button {
-  margin-right: 50px;
-  height: 300px;
-  width: 400px;
-  border-radius: 8px;
-  border-color: white;
-}
-
-.project-container {
-  display: flex;
-  margin: 50px 0px 75px 300px;
-}
-
 .connection-section {
   text-align: center;
   margin-left: auto;
@@ -122,13 +158,6 @@ img {
 } */
 
 /* -------------------- Grids --------------------  */
-/* #grid {
-  display: grid;
-  margin: 0px 200px 0px 200px;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: auto auto;
-  grid-column-gap: 100px;
-} */
 
 #aboutme-grid {
   display: grid;
