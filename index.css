@@ -22,16 +22,10 @@ html,
   h3 {
     margin-left: 400px;
   }
-  .meditation-button {
+  .project-button {
     height: 300px;
     width: 100%;
     border-color: white;
-  }
-  .installation-button {
-    height: 300px;
-    width: 100%;
-    border-color: white;
-    background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
   }
   #button {
     display: grid;
@@ -77,16 +71,10 @@ html,
   h3 {
     margin-left: 300px;
   }
-  .meditation-button {
+  .project-button {
     height: 300px;
     width: 100%;
     border-color: white;
-  }
-  .installation-button {
-    height: 300px;
-    width: 100%;
-    border-color: white;
-    background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
   }
   #button {
     display: grid;
@@ -133,16 +121,10 @@ html,
   h3 {
     margin: 0px 10px 0px 10px;
   }
-  .meditation-button {
+  .project-button {
     height: 300px;
     width: 100%;
     border-color: white;
-  }
-  .installation-button {
-    height: 300px;
-    width: 100%;
-    border-color: white;
-    background-image: linear-gradient(to bottom right, #fcd5ce, #fff8c2);
   }
   #button {
     display: grid;
