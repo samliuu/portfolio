@@ -50,14 +50,14 @@ html,
   }
   #game-grid {
     display: grid;
-    margin-left: 40px;
+    margin: 0px 400px 0px 400px;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: auto;
     grid-column-gap: 100px;
   }
   .aboutme-img-container {
     display: flex;
-    margin: 10px 20px 0px 20px; /* top, right, bottom, left */
+    margin: 10px 300px 0px 300px; /* top, right, bottom, left */
     overflow: auto;
   }
 }
