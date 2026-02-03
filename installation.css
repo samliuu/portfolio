@@ -127,7 +127,7 @@ html,
   .installation-a {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin-left: 40px;
   }
   .installation-photos {
     display: flex;
