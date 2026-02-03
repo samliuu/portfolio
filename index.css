@@ -77,6 +77,27 @@ html,
     grid-column-gap: 10px;
     border: 0.5px solid pink;
   }
+  /* <!-- ----------------------- About Me Page ---------------------------- --> */
+  #aboutme-grid {
+    display: grid;
+    margin: 0px 100px 0px 200px;
+    grid-template-columns: 0.1fr 0.9fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+  }
+  #game-grid {
+    display: grid;
+    margin: 0px 300px 0px 340px;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+  }
+
+  .aboutme-img-container {
+    display: flex;
+    margin: 10px 200px 0px 200px; /* top, right, bottom, left */
+    overflow: auto;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -112,6 +133,13 @@ html,
     grid-column-gap: 50px;
     border: 0.5px solid pink;
   }
+  /* #aboutme-grid {
+  display: grid;
+  margin: 0px 100px 0px 200px;
+  grid-template-columns: 0.1fr 0.9fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+} */
 }
 
 /* font used in unwind project */
@@ -149,22 +177,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-}
-
-/* .img-container {
-  display: flex; */
-/* margin: 10px 200px 0px 200px; top, right, bottom, left */
-/* overflow: auto;
-} */
-
-/* -------------------- Grids --------------------  */
-
-#aboutme-grid {
-  display: grid;
-  margin: 0px 100px 0px 200px;
-  grid-template-columns: 0.1fr 0.9fr;
-  grid-template-rows: auto auto;
-  grid-column-gap: 10px;
 }
 
 /* -------------------- about.html css --------------------  */
