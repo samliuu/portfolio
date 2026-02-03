@@ -99,6 +99,8 @@ html,
   .img-container {
     display: flex;
     margin: 10px 150px 0px 150px;
+    overflow: auto;
+
   }
 }
 
